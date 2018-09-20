@@ -1,0 +1,21 @@
+Sass : let you to define colors as variable so that it can be reused and easy to modify
+Sass vs SCSS : Sass syntax is simple. No curly brace or semicolon.
+
+install Ruby:
+"gem install sass" in CMD will install sass and scss for you
+
+"sass -v" will in CMD will show the version of installed sass
+
+Eclipse:
+File -> New -> Static web project
+New -> HTML File
+Run as -> Run on Server
+
+Browser will not understand Sass. It only understand CSS. So need to compile it to CSS so that browser will understand it.
+"Sass compiler for Windows" is needed to compile Sass files.
+
+"Chocolatey package manager" can be installed and through that, "choco install sass" will install sass compiler
+
+in CMD, "cd <scss file location>" and then "sass main.scss main.css" will create main.css
+
+for Intellij, there is an inbuilt compiler. That will compile scss files
