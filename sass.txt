@@ -35,3 +35,5 @@ CSS for video - in another file
 Convention: Name of a file which needs to be included in another file should start with "_".
 when importing in another file, get rid of the '_' and the extension.
 
+Same basic styling with different variation: Extend_inheritance
+Eg: little-panel extends panel
