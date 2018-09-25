@@ -19,3 +19,8 @@ Browser will not understand Sass. It only understand CSS. So need to compile it 
 in CMD, "cd <scss file location>" and then "sass main.scss main.css" will create main.css
 
 for Intellij, there is an inbuilt compiler. That will compile scss files
+
+main2:
+only want to style the ul items in the nav menu. nothing else (ul inside nav will be applied with this style)
+
+Nesting: ability to write properties inside other properties. It makes easy to style child element.
