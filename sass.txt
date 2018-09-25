@@ -16,7 +16,7 @@ Browser will not understand Sass. It only understand CSS. So need to compile it 
 
 "Chocolatey package manager" can be installed and through that, "choco install sass" will install sass compiler
 
-in CMD, "cd <scss file location>" and then "sass main.scss main.css" will create main.css
+in CMD, "cd <scss file location>" and then "sass main1.scss main1.css" will create main.css
 
 for Intellij, there is an inbuilt compiler. That will compile scss files
 
@@ -24,3 +24,14 @@ main2:
 only want to style the ul items in the nav menu. nothing else (ul inside nav will be applied with this style)
 
 Nesting: ability to write properties inside other properties. It makes easy to style child element.
+
+http://localhost:8080/SCSSFirstExample/index2.html
+
+Grouping style together: 
+Eg:
+CSS for profile - in one file
+CSS for video - in another file
+
+Convention: Name of a file which needs to be included in another file should start with "_".
+when importing in another file, get rid of the '_' and the extension.
+
