@@ -37,3 +37,8 @@ when importing in another file, get rid of the '_' and the extension.
 
 Same basic styling with different variation: Extend_inheritance
 Eg: little-panel extends panel
+
+moz-border-radius: for firebox
+ms-border-radius: for internet explorer
+
+Mixins: means this piece of code marked as mixin will be used somewhere else as mixin
