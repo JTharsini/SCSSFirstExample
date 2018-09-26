@@ -42,3 +42,10 @@ moz-border-radius: for firebox
 ms-border-radius: for internet explorer
 
 Mixins: means this piece of code marked as mixin will be used somewhere else as mixin
+
+Different variations: by operations
+Whenever, values are used in operations, we don't need to add pixels, only value is enough
+Whenever, a color is multiplied by more than one : brightened the color
+if a color is multiplied by less than one : darkened the color
+
+when hover over : can multiply by a value to get lighter color of one color
